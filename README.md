@@ -12,14 +12,14 @@ az vm create \
 --authentication-type all \ 
 --generate-ssh-keys \
 --admin-username azureuser \ 
---admin-password SoMePaSsWoRd1 \
+--admin-password SoMePaSsWoRd1 
 
 # Create rocky linux 9
 
 az vm create \
 --resource-group Fedora \
 --name myvm \
---image tunnelbiz:rocky_linux:rocky9:9.4.1 \
+--image tunnelbiz:rocky_linux:rocky9:9.4.1 
 --size Standard_B1s \
 --public-ip-sku Basic \
 --authentication-type all \ 
@@ -38,4 +38,4 @@ az vm create \
 --authentication-type all \ 
 --generate-ssh-keys \
 --admin-username azureuser \ 
---admin-password SoMePaSsWoRd1 \
+--admin-password SoMePaSsWoRd1 
