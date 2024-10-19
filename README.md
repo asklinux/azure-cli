@@ -10,7 +10,7 @@ az vm create --resource-group Fedora --name myvm --image tunnelbiz:fedora:fedora
 
 az vm create --resource-group Fedora --name myvm --image tunnelbiz:rocky_linux:rocky9:9.4.1 --size Standard_B1s --public-ip-sku Basic --authentication-type all --generate-ssh-keys --admin-username azureuser --admin-password SoMePaSsWoRd1 
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]([https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsandervandevelde%2Fdeploy-to-azure-button%2Fmain%2Fmain.json](https://portal.azure.com/#create/tunnelbiz.rocky_linuxrocky9))
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/tunnelbiz.rocky_linuxrocky9)
 
 # Create Centos 9 Stream 
 
