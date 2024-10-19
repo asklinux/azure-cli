@@ -5,7 +5,7 @@ run azure cli for create image or vm
 
 az vm create --resource-group Fedora --name myvm --image tunnelbiz:fedora:fedoraupdate:40.0.0 --size Standard_B1s --public-ip-sku Basic --authentication-type all --generate-ssh-keys --admin-username azureuser --admin-password SoMePaSsWoRd1 
 
-[![Deploy using Azure web](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/tunnelbiz.fedora)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/tunnelbiz.fedora)
 
 # Create rocky linux 9
 
