@@ -18,3 +18,9 @@ az vm create --resource-group Fedora --name myvm --image tunnelbiz:rocky_linux:r
 az vm create --resource-group Fedora --name myvm --image tunnelbiz:rocky_linux:rocky9:9.4.1 --size Standard_B1s --public-ip-sku Basic --authentication-type all --generate-ssh-keys --admin-username azureuser --admin-password SoMePaSsWoRd1 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/tunnelbiz.centos9)
+
+# Create Almalinux 9  
+
+az vm create --resource-group Fedora --name myvm --image tunnelbiz:almalinux_min:almalinux9min:9.0.0 --size Standard_B1s --public-ip-sku Basic --authentication-type all --generate-ssh-keys --admin-username azureuser --admin-password SoMePaSsWoRd1 
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/tunnelbiz.almalinux_min)
