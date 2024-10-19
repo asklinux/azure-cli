@@ -1,7 +1,7 @@
 # azure-cli
 run azure cli for create image or vm
 
-#Create Fedora VM
+# Create Fedora VM
 
 az vm create \
 --resource-group Fedora \
@@ -14,7 +14,7 @@ az vm create \
 --admin-username azureuser \ 
 --admin-password SoMePaSsWoRd1 \
 
-#Create rocky linux 9
+# Create rocky linux 9
 
 az vm create \
 --resource-group Fedora \
@@ -27,7 +27,7 @@ az vm create \
 --admin-username azureuser \ 
 --admin-password SoMePaSsWoRd1 \
 
-#Create Centos 9 Stream 
+# Create Centos 9 Stream 
 
 az vm create \
 --resource-group Fedora \
